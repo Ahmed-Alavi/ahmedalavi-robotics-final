@@ -1,0 +1,744 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.006205349813668859 0.9999307480108245 0.009999640803693465 2.030858381407526
+  position 4.28636208662005 0.9294434109115677 -2.47699656111801
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobotstadiumSoccerField {
+}
+Solid {
+  translation -3 0.44 -0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_roughness.jpg"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_metalness.jpg"
+          ]
+        }
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.88
+        radius 0.305
+        top FALSE
+      }
+    }
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_roughness.jpg"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_metalness.jpg"
+          ]
+        }
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.88
+        radius 0.305
+        side FALSE
+      }
+    }
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_roughness.jpg"
+          ]
+        }
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        height 0.88
+        radius 0.305
+        side FALSE
+        top FALSE
+      }
+    }
+  ]
+  name "oil barrel(2)"
+  model "oil barrel"
+  boundingObject Cylinder {
+    height 0.88
+    radius 0.305
+  }
+}
+Solid {
+  translation -3 0.44 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_roughness.jpg"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_metalness.jpg"
+          ]
+        }
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.88
+        radius 0.305
+        top FALSE
+      }
+    }
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_roughness.jpg"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_metalness.jpg"
+          ]
+        }
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.88
+        radius 0.305
+        side FALSE
+      }
+    }
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_roughness.jpg"
+          ]
+        }
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        height 0.88
+        radius 0.305
+        side FALSE
+        top FALSE
+      }
+    }
+  ]
+  name "oil barrel(1)"
+  model "oil barrel"
+  boundingObject Cylinder {
+    height 0.88
+    radius 0.305
+  }
+}
+Solid {
+  translation -3 0.44 0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_roughness.jpg"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_metalness.jpg"
+          ]
+        }
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_side_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.88
+        radius 0.305
+        top FALSE
+      }
+    }
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_roughness.jpg"
+          ]
+        }
+        metalnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_metalness.jpg"
+          ]
+        }
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_top_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        bottom FALSE
+        height 0.88
+        radius 0.305
+        side FALSE
+      }
+    }
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_roughness.jpg"
+          ]
+        }
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "textures/oil_barrel_bottom_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Cylinder {
+        height 0.88
+        radius 0.305
+        side FALSE
+        top FALSE
+      }
+    }
+  ]
+  name "oil barrel(3)"
+  model "oil barrel"
+  boundingObject Cylinder {
+    height 0.88
+    radius 0.305
+  }
+}
+Robot {
+  translation 1.435596369494636 0.03972359523274814 -0.48674014830469176
+  rotation -2.084742286021822e-05 0.999999999779466 -2.540305964021484e-06 -1.7130875373969283
+  children [
+    DEF body Shape {
+      appearance PBRAppearance {
+        baseColor 0.666667 1 0.498039
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.05 0.2
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 385.727087253058
+        anchor 0.06 0 0.05
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05999995227413662 -2.9930369020201926e-06 0.05000252848855565
+        rotation -0.685692659450692 0.6851470016205905 -0.24576241158027368 3.623934564718976
+        children [
+          DEF wheel Shape {
+            appearance PBRAppearance {
+              baseColor 0 0.666667 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE wheel
+        physics DEF physics_wh Physics {
+        }
+        linearVelocity -0.03959312888530659 8.75428807898688e-06 -0.005674187497868808
+        angularVelocity -0.14186136512414074 -6.492544571586408e-06 0.9898268636792767
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 134.84864027909825
+        anchor -0.06 0 0.05
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation -0.060000003537917034 -3.826327198272396e-06 0.05000094275344302
+        rotation -0.7048364083743256 0.7042751862893857 -0.08486518371530376 3.311051588611562
+        children [
+          USE wheel
+        ]
+        name "solid(1)"
+        boundingObject USE wheel
+        physics USE physics_wh
+        linearVelocity -0.03959333000295289 3.579565201952474e-06 -0.005673749305762535
+        angularVelocity -0.14186137485261086 -6.512270533137001e-06 0.9898268736764341
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 385.7271294330755
+        anchor 0.06 0 -0.05
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation 0.06000000361520223 -3.0288548911410567e-06 -0.049997515251540045
+        rotation -0.6854047015756636 0.685407380303326 -0.24583961862097636 3.623709228957202
+        children [
+          USE wheel
+        ]
+        name "solid(2)"
+        boundingObject USE wheel
+        physics USE physics_wh
+        linearVelocity -0.03959270139624102 2.7622094802931455e-06 -0.0056752243884219695
+        angularVelocity -0.14186137869494111 -6.499470063154746e-06 0.9898268390212348
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 134.84868314678965
+        anchor -0.06 0 -0.05
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.059999952202135935 -3.839839342651091e-06 -0.049999112183975084
+        rotation -0.7045535199468176 0.7045559428730124 -0.08488380819019366 3.3109537032099663
+        children [
+          USE wheel
+        ]
+        name "solid(3)"
+        boundingObject USE wheel
+        physics USE physics_wh
+        linearVelocity -0.03959311927807599 -2.155408819574848e-06 -0.005674657209384209
+        angularVelocity -0.14186140312463727 -6.515089061415123e-06 0.9898268624064739
+      }
+    }
+    DistanceSensor {
+      translation 0.02 0 0.1
+      rotation 0 1 0 -1.27
+      children [
+        DEF sensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_left"
+      boundingObject USE sensor
+      physics Physics {
+      }
+    }
+    DistanceSensor {
+      translation -0.02 0 0.1
+      rotation 0 1 0 -1.87
+      children [
+        DEF sensor Shape {
+          appearance PBRAppearance {
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_right"
+      boundingObject USE sensor
+      physics Physics {
+      }
+    }
+    Camera {
+      translation 0 0.03 0.1
+      rotation 0 1 0 -3.083185307179586
+      children [
+        Shape {
+          appearance PBRAppearance {
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.03
+          }
+        }
+      ]
+      recognitionColors [
+        0 0 0
+      ]
+      fieldOfView 1
+      width 640
+      height 640
+      recognition Recognition {
+        frameThickness 3
+      }
+    }
+  ]
+  boundingObject USE body
+  physics Physics {
+  }
+  recognitionColors [
+    0 0 0
+  ]
+  controller "work_language_cplus"
+  linearVelocity -0.03959643849810405 4.979731545484012e-06 -0.005674934916120413
+  angularVelocity -4.62309278856928e-05 1.1262705537341483e-05 -6.629761889379573e-05
+}
+SoccerBall {
+  hidden linearVelocity_0 0 -1.4127210095203452e-06 0
+  translation 1.0136580076059334 0.049058419762466374 1.2385128134589432
+  rotation 0.951131270478474 -0.29328408593463356 -0.09661134123637014 -2.4928502907555754
+  radius 0.05
+}
+SoccerBall {
+  hidden linearVelocity_0 7.994392442181281e-33 -2.2372069809408184e-09 -5.186328764807624e-16
+  hidden angularVelocity_0 -5.762582818100118e-15 -9.203271115604882e-31 -8.7095573720646e-32
+  translation -3 0.9689012802843914 -0.060000000000000706
+  rotation 0.9511312704784741 -0.2932840859346335 -0.09661134123636897 -2.492850290755581
+  name "soccer ball(2)"
+  radius 0.09
+  mass 0.7
+}
+Solid {
+  translation 1.6 0.07905841969212586 1.1
+  rotation -0.24897709625103975 0.4219094056747521 0.8717814284243374 2.440285898099006
+  children [
+    DEF FOOTBALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.333333 1
+        baseColorMap ImageTexture {
+          url [
+            "textures/football_base_color.jpg"
+          ]
+        }
+        roughness 0.4
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "textures/football_normal.jpg"
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.08
+        subdivision 3
+      }
+    }
+  ]
+  name "soccer ball(5)"
+  model "soccer ball"
+  boundingObject USE FOOTBALL_SHAPE
+  physics Physics {
+    density -1
+    mass 0.6
+  }
+  linearVelocity 0 -1.4121682160825217e-06 0
+}
+Solid {
+  translation 1.3 0.04905841976398082 0.381854
+  rotation 0.06481509222669345 0.13105198354103173 0.989254457371614 -2.9289606420239895
+  children [
+    DEF FOOTBALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        baseColorMap ImageTexture {
+          url [
+            "textures/football_base_color.jpg"
+          ]
+        }
+        roughness 0.4
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "textures/football_normal.jpg"
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.05
+        subdivision 3
+      }
+    }
+  ]
+  name "soccer ball(1)"
+  model "soccer ball"
+  boundingObject USE FOOTBALL_SHAPE
+  physics Physics {
+    density -1
+    mass 0.6
+  }
+  linearVelocity 0 -1.4127329112528324e-06 0
+}
+SoccerBall {
+  hidden linearVelocity_0 0 -1.4127210095203452e-06 0
+  translation -1.7884587730386812 0.049058419762466374 -0.5191143639431387
+  rotation 0.9269857027685706 0.01830208846865496 0.374649890458205 -1.3790503119983624
+  name "soccer ball(3)"
+  radius 0.05
+}
+SoccerBall {
+  hidden linearVelocity_0 0 -1.4127210095203452e-06 0
+  translation 1.7359895238995071 0.049058419762466374 0.5144622240417536
+  rotation 0.6763299234639225 0.37103681306769554 -0.6363250097048305 -2.6460434784540814
+  name "soccer ball(4)"
+  radius 0.05
+}
+Solid {
+  translation 1.5 0 0.4
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Cone {
+        bottomRadius 0.2
+        height 0.2
+      }
+    }
+  ]
+}
+Solid {
+  translation 1.5 0 0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.2
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation -2.9 0.9 0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.666667 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.3 0.2
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation -2.9 0.9 -0.8
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.3 0.7 0.3
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation 1.1230022868950522 0.04905841866639036 0.35346074858901255
+  rotation -0.25882963969917816 0.397247467627978 0.8804553748352908 2.4621498678689573
+  children [
+    DEF FOOTBALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        baseColorMap ImageTexture {
+          url [
+            "textures/football_base_color.jpg"
+          ]
+        }
+        roughness 0.4
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "textures/football_normal.jpg"
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.05
+        subdivision 3
+      }
+    }
+  ]
+  name "soccer ball(6)"
+  model "soccer ball"
+  boundingObject USE FOOTBALL_SHAPE
+  physics Physics {
+    density -1
+    mass 0.6
+  }
+  linearVelocity 0 -1.4041071444618556e-06 0
+}
+Solid {
+  translation 2 0.1 0.4
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.333333 0 1
+        metalness 0
+      }
+      geometry Cone {
+        bottomRadius 0.2
+        height 0.2
+      }
+    }
+  ]
+  name "solid(1)"
+}
